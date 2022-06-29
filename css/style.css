@@ -1,0 +1,365 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Poppins:ital,wght@0,400;0,600;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* global css */
+
+a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #2A2B2D;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #2A2B2D;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #2A2B2D;
+}
+
+.btn {
+    width: 126px;
+    height: 48px;
+    background-color: #D8514E;
+    border: 1px solid #D8514E;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.explore {
+    margin: 100px 0px;
+    padding: 0px 100px;
+}
+
+
+/* global css */
+
+#hero {
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+/* header section */
+
+
+/* header section end */
+
+
+/*  Explore Section Starts  */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-item-left {
+    padding-right: 160px;
+    flex-basis: 50%;
+}
+
+.flex-item-left h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.flex-item-left p {
+    margin-bottom: 30px;
+}
+
+.flex-item-left a {
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+.flex-item-right {
+    background-image: url("../img/unsplash__8hy8T14BZ0.png");
+    background-position: center;
+    background-size: cover;
+    flex-basis: 50%;
+    height: 393px;
+    border-radius: 20px;
+}
+
+
+/*  Explore Section end  */
+
+
+/* Who We Are Starts */
+
+.flex-item-we {
+    background-image: url("../img/unsplash_rlEFlRmIDGU.png");
+    background-position: center;
+    background-size: cover;
+    flex-basis: 50%;
+    height: 547px;
+    border-radius: 196.5px 20px;
+}
+
+.icon {
+    position: relative;
+    top: 250px;
+    left: 45%;
+}
+
+.fa-solid {
+    color: #fff;
+    font-size: 30px;
+    border: 3px solid #fff;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.flex-item-who h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.flex-item-who p {
+    margin-bottom: 30px;
+}
+
+.flex-item-who {
+    flex-basis: 50%;
+    justify-content: center;
+    padding-left: 113px;
+    padding-right: 30px;
+}
+
+
+/* Who We Are End */
+
+
+/* Destination Section */
+
+.destin {
+    margin: 40px 10px;
+}
+
+.flex-gal {
+    flex-basis: 31%;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+    height: 252px;
+    border-radius: 13px;
+}
+
+#flex-gal-1 {
+    background-image: url("../img/unsplash_H8dcf-v98mA.jpg");
+}
+
+#flex-gal-2 {
+    background-image: url("../img/unsplash_m1PFxGQ-5x0.png");
+}
+
+#flex-gal-3 {
+    background-image: url("../img/unsplash_QXIBCvvA_jc.png");
+}
+
+#flex-gal-4 {
+    background-image: url("../img/unsplash_7j-8VN91Khk.png");
+}
+
+#flex-gal-5 {
+    background-image: url("../img/unsplash_QXIBCvvA_jc.png");
+}
+
+#flex-gal-6 {
+    background-image: url("../img/unsplash_ZEfzyduAyJU.png");
+}
+
+.locations {
+    background-color: #fff;
+    width: 148px;
+    height: 54px;
+    border-radius: 10px;
+    position: relative;
+    top: 187px;
+    left: 10px;
+    padding: 10px;
+}
+
+.locations h4 {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.locations p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.price {
+    padding-left: 45px;
+}
+
+.place {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.more {
+    border: 1px solid #D8514E;
+    color: #D8514E;
+    background-color: #fff;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+/* Destination Section End */
+
+
+/* Review Section */
+
+.flex-review-1 {
+    flex-basis: 48%;
+    background-color: #E9E9E9;
+    margin: 0px 10px;
+    border-radius: 13px;
+}
+
+.flex-review-2 {
+    flex-basis: 48%;
+    background-color: #E9E9E9;
+    margin: 0px 10px;
+    border-radius: 13px;
+}
+
+.holidays {
+    background-position: center;
+    background-size: cover;
+    height: 225px;
+    border-radius: 13px;
+}
+
+#holiday-1 {
+    background-image: url("../img/Rectangle\ 86.png");
+}
+
+#holiday-2 {
+    background-image: url("../img/Rectangle\ 90.png");
+}
+
+.content {
+    padding: 20px;
+}
+
+.content p {
+    font-size: 10px;
+    color: #949494;
+    font-weight: 500;
+}
+
+.content h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2A2B2D;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.author {
+    text-align: right;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #2A2B2D;
+}
+
+
+/* Review Section End */
+
+
+/* sub area */
+
+#sub {
+    background-color: #D8514E;
+    margin-bottom: 0px;
+}
+
+.flex-sub {
+    flex-basis: 50%;
+    padding: 60px 0px;
+}
+
+.flex-sub h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 60px 20px 10px;
+}
+
+.flex-sub p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 60px 0px 10px;
+}
+
+.subscription {
+    position: relative;
+}
+
+.add-email {
+    width: 100%;
+    height: 52px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+}
+
+.submit-email {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 157px;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    background: #2A2B2D;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+
+/* sub area end */
