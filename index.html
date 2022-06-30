@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Website</title>
 
-
+    <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/60b6b34161.js" crossorigin="anonymous"></script>
     <!-- Stylsheet -->
     <link rel="stylesheet" href="css/style.css">
@@ -17,28 +17,34 @@
 <body>
 
     <!-- header Section -->
-    <header class="hero">
-        <div id="navbar" class="navbar">
+    <header class="explore" id="hero">
+        <div class="navbar">
             <h1 class="logo">
                 Traveller
             </h1>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Destinations</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">Contact US</a></li>
+        <nav class="main">
+            <ul class="nav-menu">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Destination</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+                <li class="nav-item"><a class="nav-link" id="btn" href="#">Contact US</a></li>
             </ul>
         </nav>
+
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </header>
 
 
     <!-- Header Section End -->
 
     <!-- Explore Section Starts -->
-    <section class="explore">
+    <section class="explore" id="kasol">
         <div class="flex-container">
             <div class="flex-item-left" id="flex-item-1">
                 <h1>Let’s explore the adventurous Kasol</h1>
@@ -58,8 +64,7 @@
         <div class="flex-container">
             <div class="flex-item-we">
                 <div class="icon">
-                    <i class="fa-solid fa-circle-play"></i>
-
+                    <i class="fa-regular fa-circle-play"></i>
                 </div>
             </div>
 
@@ -174,6 +179,53 @@
 
     <!-- Subscribe Section End -->
 
+    <!-- Footer Section Start -->
+    <footer class="explore" id="foot">
+        <div class="flex-container" id="tag">
+            <div class="flex-foot">
+                <h1 class="logo" id="add">
+                    Traveller
+                </h1>
+                <p><i class="fa-regular fa-envelope"></i> &nbsp; &nbsp; A-1710, Connaught Place, Delhi</p>
+            </div>
+            <div class="flex-foot-1">
+                <div class="link">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Customer Care</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h4>Contact us</h4>
+                    <p><i class="fa-regular fa-envelope"></i> &nbsp; &nbsp; 9247238572</p>
+                    <p><i class="fa-regular fa-envelope"></i> &nbsp; &nbsp; travellersgo@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Footer Section End -->
+
+    <!-- Navbar Script For Hamburger -->
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", () => {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        })
+
+        document.querySelectorAll(".nav-link")
+            .forEach(n => n.addEventListener("click", () => {
+                hamburger.classList.remove("active");
+                navMenu.classList.remove("active");
+            }))
+    </script>
+    <!-- Navbar Script For Hamburger -->
 
 </body>
 

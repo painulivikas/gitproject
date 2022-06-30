@@ -52,22 +52,76 @@ p {
     padding: 0px 100px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 
 /* global css */
 
-#hero {
-    margin: 0px;
-}
 
-.navbar {
+/* header section */
+
+#hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    margin: 20px 0px;
 }
 
+.logo {
+    font-family: 'Just Another Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: uppercase;
+}
 
-/* header section */
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-link {
+    color: #2A2B2D;
+    padding: 12px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    transition: 0.7s ease;
+}
+
+.nav-link:hover {
+    color: #D8514E;
+}
+
+#btn {
+    width: 126px;
+    height: 48px;
+    background-color: #D8514E;
+    border: 1px solid #D8514E;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #D8514E;
+}
 
 
 /* header section end */
@@ -128,15 +182,12 @@ p {
 .icon {
     position: relative;
     top: 250px;
-    left: 45%;
+    text-align: center;
 }
 
-.fa-solid {
+.fa-circle-play {
     color: #fff;
-    font-size: 30px;
-    border: 3px solid #fff;
-    padding: 10px;
-    border-radius: 100%;
+    font-size: 60px;
 }
 
 .flex-item-who h1 {
@@ -187,11 +238,11 @@ p {
 }
 
 #flex-gal-4 {
-    background-image: url("../img/unsplash_7j-8VN91Khk.png");
+    background-image: url("../img/unsplash_n1666P1ReCA.png");
 }
 
 #flex-gal-5 {
-    background-image: url("../img/unsplash_QXIBCvvA_jc.png");
+    background-image: url("../img/unsplash_7j-8VN91Khk.png");
 }
 
 #flex-gal-6 {
@@ -363,3 +414,79 @@ p {
 
 
 /* sub area end */
+
+
+/* Footer Area Start */
+
+#foot {
+    margin: 0px;
+    background-color: #2A2B2D;
+}
+
+#tag {
+    padding: 60px 0px;
+}
+
+.flex-foot {
+    flex-basis: 50%;
+    /* background-color: white; */
+}
+
+.flex-foot-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+    /* background-color: white; */
+}
+
+.link h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.link a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 14px;
+    color: #fff;
+    line-height: 2;
+}
+
+.flex-foot p {
+    color: #fff;
+}
+
+#add {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.fa-location-check {
+    font-size: 20px;
+}
+
+.contact h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.fa-phone {
+    font-size: 25px;
+}
+
+.fa-envelope {
+    font-size: 25px;
+}
+
+.contact p {
+    color: #fff;
+    line-height: 3;
+}
