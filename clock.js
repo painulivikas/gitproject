@@ -27,7 +27,7 @@ function updateTime() {
     }
     // Time area ends
 
-    var day = dateTime.getDay();
+    var day = dateTime.getDate();
 
     var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     var month = dateTime.getMonth();
